@@ -1,0 +1,51 @@
+DDOS ATTACK USING TRAFFIC GENERATOR
+======================================
+
+Implementation Plan:
+======================
+Step 1: we create a  wired Network  maximum we set  200 nodes , 2-3 attacker and 2-5 zombie nodes and 1 victim nodes
+
+Step 2: next we  zombie nodes from the attacker node and ensure that they attack target on instruction that is  From attacker node, with the help of zombie nodes, launch a DDoS attack on Targeted node.
+
+Step 3:next we create http traffic  and Select a target and launch DDOS through zombies
+
+
+Step 4: run the simulation
+
+Step 5: plot the results are throughput and delay
+
+======================================================================================
+s/w req:
+-------------
+1)ns-3.26
+2)ubuntu-14.04LTS
+
+Note:
+------------
+
+ above use 200 nodes means ns-3 python viz hang so we set maximum 200 nodes
+
+============================================================================================================
+
+
+
+Is it not possible of 1000 nodes?
+==========================================================================================
+No sir , maximum we set  200 nodes  as possible sir ,above  means  running simulation window ll stuck or hang sir
+================================================================================================
+Ok go forward with 200 nodes. But, please send  a copy of code for 1000 also
+=============================================================================================
+What is the traffic generator you would be using to generate HTTP traffic?
+==============================================================================================
+we use  200 nodes  but not 1000 nodes but we set the code numnodes as a userdefined value based  so you can change  increase and decrease as possible
+
+next we create http trafic ns3 simulation based not a realtime sir
+===================================================================================================
+How do u create the http traffic? Is it like u generate packets during the simulation? If yes, How do u direct the packets to the nodes..?
+=========================================================================================================
+ns-3 application module  we create http traffic  generate packets  that access the port is 80  and DataRate we use 100Gb/s and Httpclient connected to  RemoteAddress and RemotePort(80)  http server
+Attachments area
+	
+
+	
+
